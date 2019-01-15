@@ -111,7 +111,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return super.onOptionsItemSelected(item)
         //  the old return statement above
         // Have the NavigationUI look for an action or destination matching the menu
         // item id and navigate there if found.
